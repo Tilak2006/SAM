@@ -39,7 +39,8 @@
 
 /* Theme toggle button positioned absolutely */
 .theme-toggle-btn {
-  top: 2rem;
+    position: absolute;
+  top: 0.85rem;
   right: 2rem;
   background: var(--card-bg);
   border: 1px solid var(--border-color);
@@ -62,7 +63,7 @@
 
 /* Login form container */
 .login-form {
-  background: var(--card-bg);
+  background: var(--bg-primary);
   padding: 2.5rem;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-lg);
