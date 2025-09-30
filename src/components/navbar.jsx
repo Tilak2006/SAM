@@ -51,6 +51,13 @@ const Navbar = ({ theme, toggleTheme }) => {
                 >
                   Dashboard
                 </Link>
+                 <Link
+                  to="/studentDashboard"
+                  className={`nav-link ${isActive('/studentDashboard') ? 'active' : ''}`}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Analysis
+                </Link>
               </>
             )}
           </div>
